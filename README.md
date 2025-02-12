@@ -15,9 +15,6 @@ It showcases my **projects, experience, and skills** in an interactive way.
 - Smooth animations using Framer Motion 💫
 - Interactive chatbot with RAG 🤖 (to be implemented soon!!)
 
-## 📌 Credit & Inspiration
-This portfolio was **originally forked** from [Adeola Badero's portfolio](https://github.com/adex-hub/ade-folio),  
-but has been **significantly customized** with new features, design updates, and additional sections.  
 
 
 # Tech Stack
@@ -30,7 +27,7 @@ Hosting: Vercel (to be decided soon!!)
 Clone the project
 
 ```
-git clone https://github.com/SABHYAGUPTA5XR/MiCartera.git
+git clone https://github.com/SABHYAGUPTA5XR/MyPortfolio.git
 ```
 
 Go to the project directory
@@ -50,6 +47,12 @@ Start the development server
 ```
 npm run dev
 ```
-# License
+## 📌Inspiration
+This portfolio was inspired from [Adeola Badero's portfolio](https://github.com/adex-hub/ade-folio),  
+but has been **significantly customized** with new features, design updates, and additional sections.  
 
+# License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+_Made with ❤️ by Sabhya_
