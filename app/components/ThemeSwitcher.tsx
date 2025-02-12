@@ -9,7 +9,7 @@ import { useMediaQuery } from "../hooks/useMediaQuery";
 export default function FooterThemeSwitcher() {
   const { theme, setTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
-  // Use a media query to detect small screens (e.g., max-width 768px)
+
   const isSmallScreen = useMediaQuery("(max-width: 768px)");
 
   const themes = [

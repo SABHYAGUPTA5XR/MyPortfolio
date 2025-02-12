@@ -1,4 +1,3 @@
-// app/my-story/page.tsx
 "use client";
 import React, { useEffect } from "react";
 import { useView } from "@/contexts/ViewContext";

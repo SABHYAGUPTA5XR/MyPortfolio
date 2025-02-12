@@ -7,8 +7,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import Header from "./components/header-section/Header";
 import { ViewProvider } from "@/contexts/ViewContext";
-// import { initialBlobityOptions } from "@/utils/blobity.config";
-// import useBlobity from "blobity/lib/react/useBlobity";
 import CustomCursor from "./components/customCursor";
 
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });

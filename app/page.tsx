@@ -7,8 +7,6 @@ import Footer from "./components/contact+footer/Footer";
 
 
 export default function Home() {
-
-
   return (
     <main className="overflow-x-hidden sm:overflow-x-visible">
       <Hero />

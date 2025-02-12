@@ -2,7 +2,7 @@
 
 import { useView } from "@/contexts/ViewContext";
 import React from "react";
-import ThemeSwitcher from "../ThemeSwitcher"; // Import our new theme switcher component
+import ThemeSwitcher from "../ThemeSwitcher"; 
 
 const curYear = new Date().getFullYear();
 

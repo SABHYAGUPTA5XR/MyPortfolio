@@ -33,7 +33,7 @@ git clone https://github.com/SABHYAGUPTA5XR/MyPortfolio.git
 Go to the project directory
 
 ```
-cd MiCartera
+cd MyPortfolio
 ```
 
 Install dependencies

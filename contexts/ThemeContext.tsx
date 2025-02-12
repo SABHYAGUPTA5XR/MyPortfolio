@@ -12,7 +12,6 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<string>("theme-default");
 
-  // On mount, you could load a saved theme from localStorage
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
@@ -24,7 +23,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    // List all theme classes that might be applied
     const themeClasses = [
       "theme-default",
       "theme-cyberpunk",
@@ -34,11 +32,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       "theme-sunset",
       "theme-desert",
     ];
-  
-    // Remove only the theme classes, leaving other body classes intact
+
     themeClasses.forEach((t) => document.body.classList.remove(t));
   
-    // Add the selected theme class
     document.body.classList.add(theme);
     localStorage.setItem("theme", theme);
   }, [theme]);

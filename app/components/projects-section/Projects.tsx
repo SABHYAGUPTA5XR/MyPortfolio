@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import FolioCard from "./FolioCard";
 import Title from "../ui/Title";
 import { useView } from "@/contexts/ViewContext";
-
 // @ts-ignore
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
