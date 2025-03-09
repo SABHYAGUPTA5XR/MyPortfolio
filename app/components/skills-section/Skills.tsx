@@ -64,7 +64,7 @@ export default function Skills() {
               Web Technologies
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              HTML5, CSS, TailwindCSS, ReactJS, NextJS, MongoDB, MySQL, Git, GitHub
+              HTML5, CSS, TailwindCSS, ReactJS, NextJS, Git, GitHub
             </AnimatedBody>
           </div>
           <div>
@@ -76,7 +76,7 @@ export default function Skills() {
               AI Technologies
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              TensorFlow, PyTorch, OpenCV, NumPy, Pandas, Scikit-Learn, DeepSeek, OPENAI API
+              TensorFlow, PyTorch, OpenCV, NumPy, Pandas, DeepSeek API, OPENAI API
             </AnimatedBody>
           </div>
           <div>
